@@ -1,0 +1,21 @@
+iThe main similarity is that both viruses and worms self-replicate and spread rapidly. In fact, both can spread exponentially, giving them extreme potential for damage. When it comes to viruses vs. worms, it’s safe to say you want to stay far away from both. The main difference between a computer worm and a computer virus is that worms can spread independently, without being attached to a host file or program. Some people describe computer worms as a subset of computer viruses, but it’s more common to consider worms and viruses as two subcategories of malicious software (malware).                                                                      The main difference between worms vs. viruses is how they spread and how they behave.                                                                                How a computer virus spreads
+A virus infects your device by inserting its code (or payload) into a program or file and borrowing your system’s resources to copy itself and spread. That’s why viruses are sometimes referred to as “file infectors.”
+
+A computer virus lives within a host, such as a document or executable file, and requires human interaction to spread. That means a virus lies dormant until you inadvertently trigger it by executing the file.
+
+Once active, a self-replicating virus starts to copy itself and spread. Viruses can cause many forms of damage, such as corrupting files or apps, harming your computer performance, and infecting more and more devices (and people). 
+
+An example of a virus infection
+Here’s a typical example of how you can get infected by a computer virus: You receive an email (that you’re not expecting) with an intriguing (clickbait) title like “Made some changes — please check.” Attached to the email is a file with a name like “Updates” — it may be a DOC or EXE file.
+
+A computer virus lives within a host, such as a document or executable file, and requires human interaction to spread.
+If it’s a DOC file, once you download it, you’ll be prompted to enable macros (programmed rules that help simplify repetitive tasks). This action triggers the virus. 
+
+If the file is an EXE, downloading it and running it triggers the virus. The virus will then commandeer your computer’s resources to copy itself and spread, damaging your devices and files or stealing your personal data.
+
+How a computer worm spreads
+A worm is different from a virus, because it doesn’t require a host or human interaction to spread and wreak havoc. It’s also self-replicating malware, but it’s the stand-alone variety. Worms often spread through a software vulnerability.
+
+A security flaw, or vulnerability, is created accidentally by developers while they’re writing a program or developing an operating system. Hackers later discover the vulnerability, and write code to exploit it. They use the exploit to push malware in through the uncovered “hole” and into your system. The scary part is that you may have no idea you’ve been infected. 
+
+A worm is different from a virus, because it doesn’t require a host or human interaction to spread and wreak havoc. 
