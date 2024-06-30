@@ -1,0 +1,53 @@
+Swtich and it's uses
+
+
+The Switch is a network device that is used to segment the networks into different subnetworks called subnets or LAN segments.
+ It is responsible for filtering and forwarding the packets between LAN segments based on MAC address. 
+
+Switches have many ports, and when data arrives at any port, the destination address is examined first and some checks are also done and then it is processed to the devices.
+ Different types of communication are supported here like unicast, multicast, and broadcast communication.
+
+Features of Network Switches
+
+It operates in Data Link Layer in OSI Model.
+It performs error checking before forwarding data.
+It transfers the data only to the device that has been addressed.
+It operates in full duplex mode.
+It allocates each LAN segment a limited bandwidth.
+It uses Unicast (one-to-one), multicast (one-to-many), and broadcast (one-to-all) transmission modes.
+Packet Switching techniques are used to transfer data packets from source to destination.
+Switches have a more significant number of ports.
+
+Why Are Network Switches Valuable?
+
+Switches are one of the most important things for transferring information between different endpoints. Some of the benefits are mentioned below.
+
+Switches are having full-duplex communication which helps in making effective use of bandwidth.
+Switches help to provide a wired connection to printers, IoT devices, wireless points, and many more devices.
+IoT Devices send data through Network Switches that help in making smarter surroundings with the help of Artificial Intelligence.
+Network Devices are made with the help of Switches that carry a large number of traffic in telecommunication.
+
+How Does a Network Switch Works?
+
+When the source wants to send the data packet to the destination, the packet first enters the switch and the switch reads its header and finds the MAC address of the destination to identify the device then it sends the packet out through the appropriate ports that lead to the destination devices.
+
+Switch establishes a temporary connection between the source and destination for communication and terminates the connection once the conversation is done.
+ Also, it offers full bandwidth to network traffic going to and from a device simultaneously to reduce collision.
+
+Uses of Network Switches
+Network Switches are an important part of Network communication. Some of the use cases are mentioned below.
+
+Network switches help provide automatic link connections that remove time-consuming settings and provide easy access to network devices.
+Switches provide a better, more secure, reliable network having more control over data.
+Generally, switches work in full duplex mode, which helps in continuous data transmission and that improves better connectivity.
+As MAC Address is used for the devices connected to it, that helps in the delivery of messages to only the required destination, not everywhere.
+Network Switches work for home networks or local networks where streaming works are performed regularly.
+
+How Does a Network Switch Works?
+
+Switching Techniques
+Switching techniques are used to decide the best route for data transmission between source and destination. These are classified into three categories :
+
+Circuit Switching
+Message Switching
+Packet Switching
