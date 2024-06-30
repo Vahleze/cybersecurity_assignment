@@ -1,0 +1,32 @@
+Router and it's uses
+
+What is a router?
+A router is a device that connects two or more packet-switched networks or subnetworks. It serves two primary functions: managing traffic between these networks by 
+forwarding data packets to their intended IP addresses, and allowing multiple devices to use the same Internet connection.
+It is a networking device that connects multiple devices on a local network to the internet. It serves as a connecting point between a LAN and the internet.
+It understands the IP format and can forward packets between networks.
+
+How does a router work?
+Think of a router as an air traffic controller and data packets as aircraft headed to different airports (or networks). Just as each plane has a unique destination+
+and follows a unique route, each packet needs to be guided to its destination as efficiently as possible. 
+In the same way that an air traffic controller ensures that planes reach their destinations without getting lost or suffering a major disruption along the way, a router helps direct data packets to their destination IP address.
+
+In order to direct packets effectively, a router uses an internal routing table — a list of paths to various network destinations. The router reads a packet's header to determine where it is going, then consults the routing table to figure out the most efficient path to that destination. 
+It then forwards the packet to the next network in the path.
+
+
+What are some of the security challenges associated with routers?
+Vulnerability exploits: All hardware-based routers come with automatically installed software known as firmware that helps the router perform its functions. Like any other piece of software, router firmware often contains vulnerabilities that cyber attackers can exploit (one example), and router vendors periodically issue updates to patch these vulnerabilities.
+For this reason, router firmware needs to be updated regularly. Unpatched routers can be compromised by attackers, enabling them to monitor traffic or use the router as part of a botnet.
+
+DDoS attacks: Small and large organizations often are the targets of distributed denial-of-service (DDoS) attacks directed at their network infrastructure. Unmitigated network layer DDoS attacks can overwhelm routers or cause them to crash, resulting in network downtime. 
+
+Administrative credentials: All routers come with a set of admin credentials for performing administrative functions. These credentials are set to default values, such as "admin" as the username and "admin" as the password. The username and password should be reset to something more secure as soon as possible: attackers are aware of the common default values for these credentials and can use them to gain control of the router remotely if they are not reset.
+
+
+
+
+
+
+
+
