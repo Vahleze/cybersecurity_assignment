@@ -1,0 +1,27 @@
+Firewalls
+
+
+A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
+
+Firewalls have been a first line of defense in network security for over 25 years. They establish a barrier between secured and controlled internal networks that can be trusted and untrusted outside networks, such as the Internet. 
+
+A firewall can be hardware, software, software-as-a service (SaaS), public cloud, or private cloud (virtual).
+
+A firewall is a network security device that monitors and controls incoming and outgoing traffic from a computer network. By allowing only authorized traffic and blocking unwanted traffic, firewalls protect against unauthorized access, malware and other security threats.
+Firewalls can also prevent sensitive data from leaving the network.
+
+What Are the 3 Types of Firewalls?
+Network Firewalls — including static network firewalls, stateful firewalls and next-generation firewalls (NGFW)
+Host-Based Firewalls
+Web Application Firewalls
+
+How Does a Firewall Work?
+A firewall inspects incoming and outgoing network traffic, and makes decisions based on the ruleset. The data sent over a computer network is assembled into a packet, which contains the sender and recipient’s IP addresses and port numbers. Before a packet is delivered to its destination, it’s sent to the firewall for inspection. If the firewall determines the packet is permitted, it will send it to the destination; otherwise, the firewall will drop the packet.
+The criteria the firewall uses to determine whether or not the packet is permitted is called a ruleset. For example, a firewall rule may say to drop all traffic incoming to port 22, which is commonly used to log in to computers remotely using SSH (secure shell). In this case, when a packet arrives with the destination port of 22, the firewall will ignore it and fail to deliver it to the source IP.
+
+
+Advantages of a Firewall
+Firewalls create a layer of protection against unauthorized access to your network.
+Firewalls help organizations manage their bandwidth usage.
+Firewalls help you monitor your network traffic so you can identify and respond to threats quickly.
+Firewalls prevent viruses and malware from infecting systems and spreading throughout the network.
