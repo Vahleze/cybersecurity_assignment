@@ -134,11 +134,6 @@ mydict = [
                    "regNo": "EBSU/24/34996"
                    }
 
-        
-
-
-
-
         ]
 
 print(mydict)

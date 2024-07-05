@@ -11,11 +11,11 @@ def main():
     Ass1 = int(argv[1])
     Ass2 = int(argv[2])
     Exam = int(argv[3])
-    x = int(Ass1 + Ass2 + Exam)
+    x = (Ass1 + Ass2 + Exam)
     
     
     if x >=70 and x <= 100:
-        print("Your is score grade is A")
+        print("Your score grade is A")
     elif x >= 60 and x <= 69:
         print("Your score grade is B")
     elif x >= 50 and x <= 59:
