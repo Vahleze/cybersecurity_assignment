@@ -1,47 +1,54 @@
 #!/usr/bin/python
 
-x = "Hello"
-y = 23
+#x = "Hello"
+#y = 23
 
-print(bool(x))
-print(bool(y))
-print(isinstance(x, int))
-print(isinstance(y, int))
+#print(bool(x))
+#print(bool(y))
+#print(isinstance(x, int))
+#print(isinstance(y, int))
 
-g = 20
-h = 90
-if g > h:
-    print("g is greater than h")
-else:
-    print("g is less than h")
+#g = 20
+#h = 90
+#if g > h:
+#    print("g is greater than h")
+#else:
+#    print("g is less than h")
 
-mytuple = ("beans", "rice", "cocoyam", "eggyork", "plantain")
-y = list(mytuple)
-y.append("yam")
-mytuple = tuple(y)
-print(mytuple)
-
-
+#mytuple = ("beans", "rice", "cocoyam", "eggyork", "plantain")
+#y = list(mytuple)
+#y.append("yam")
+#mytuple = tuple(y)
+#print(mytuple)
 
 
 
-thetuple = ("mat", "cap", "tapswap", "whot")
-(blue, *red, white) = thetuple
-print(blue)
-print(red)
-print(white)
-
-ourtuple1 = ("tree", "houses", "homes", "television")
-ourtuple2 = ("men", "women", "kids")
-ourtuple = (ourtuple1 + ourtuple2) * 2
-print(ourtuple)
 
 
-thisset = set(("one","two","three","four"))
-print(thisset)
+#thetuple = ("mat", "cap", "tapswap", "whot")
+#(blue, *red, white) = thetuple
+#print(blue)
+#print(red)
+#print(white)
 
-thisset.update(ourtuple)
-print(thisset)
+#ourtuple1 = ("tree", "houses", "homes", "television")
+#ourtuple2 = ("men", "women", "kids")
+#ourtuple = (ourtuple1 + ourtuple2) * 2
+#print(ourtuple)
+
+
+#thisset = set(("one","two","three","four"))
+#print(thisset)
+
+#thisset.update(ourtuple)
+#print(thisset)
 
              
-
+numbers = [1, 2, 3, 4, 5, 6, 7]
+for item in numbers:
+    print(item)
+    
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i = i +1
