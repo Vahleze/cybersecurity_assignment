@@ -1,0 +1,32 @@
+from faculty import Faculty
+from department import Department
+from courses_Assn import Course
+
+
+faculty1 = Faculty("Faculty Of Physical Sciences", "FA1")
+faculty2 = Faculty("Faculty Of Applied Sciences", "FA2")
+faculty3 = Faculty("Faculty Of Medical Sciences", "FA3")
+faculty4 = Faculty("Faculty Of Managemanet Sciences", "FA4")
+
+department1 = Department("Faculty Of Applied Sciences", "FA2", "Computer Science", "FOAS011")
+department2 = Department("Faculty Of Phyiscal Sciences", "FA1", "Physics", "FOPS013")
+department3 = Department("Faculty Of Medical Sciences", "FA3", "Medicine", "FOMS108")
+department4 = Department("Faculty Of Management Sciences", "FA4", "Accounting", "FOMNS190")
+
+print(department1.Id)
+print(department1.Name)
+print(department1.getDepartmentDetails())
+print(department2.getDepartmentDetails())
+print(department3.getDepartmentId())
+print(department4.getDepartmentDetails())
+
+
+course1 = Course("Faculty Of Applied Sciences", "FA2", "Computer Science", "FOAS011", "Introduction To Computers", "CSC101")
+course2 = Course("Faculty Of Physical Scineces", "FA1", "Physics", "FOPS013", "Scalar And Vector Quantities", "PHY101")
+course3 = Course("faculty Of Medical Sciences", "FA3", "Medicine", "FOMS108", "Introduction To Medicine", "MED102")
+course4 = Course("Faculty Of Management Sciences", "FA4", "Accounting", "FOMNS190", "General Mathematics", "MTH111")
+print(course1.getCourseDetails())
+print(course2.getCourseDetails())
+print(course3.getCourseDetails())
+print(course4.getCourseDetails())
+print(faculty1)
