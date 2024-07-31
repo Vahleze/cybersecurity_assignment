@@ -1,32 +1,25 @@
-from faculty import Faculty
-from department import Department
-from courses_Assn import Course
+from faculty import Faculty as f
+from department import Department as d
+from courses_Assn import Course as c
+import json
 
 
-faculty1 = Faculty("Faculty Of Physical Sciences", "FA1")
-faculty2 = Faculty("Faculty Of Applied Sciences", "FA2")
-faculty3 = Faculty("Faculty Of Medical Sciences", "FA3")
-faculty4 = Faculty("Faculty Of Managemanet Sciences", "FA4")
-
-department1 = Department("Faculty Of Applied Sciences", "FA2", "Computer Science", "FOAS011")
-department2 = Department("Faculty Of Phyiscal Sciences", "FA1", "Physics", "FOPS013")
-department3 = Department("Faculty Of Medical Sciences", "FA3", "Medicine", "FOMS108")
-department4 = Department("Faculty Of Management Sciences", "FA4", "Accounting", "FOMNS190")
-
-print(department1.Id)
-print(department1.Name)
-print(department1.getDepartmentDetails())
-print(department2.getDepartmentDetails())
-print(department3.getDepartmentId())
-print(department4.getDepartmentDetails())
-
-
-course1 = Course("Faculty Of Applied Sciences", "FA2", "Computer Science", "FOAS011", "Introduction To Computers", "CSC101")
-course2 = Course("Faculty Of Physical Scineces", "FA1", "Physics", "FOPS013", "Scalar And Vector Quantities", "PHY101")
-course3 = Course("faculty Of Medical Sciences", "FA3", "Medicine", "FOMS108", "Introduction To Medicine", "MED102")
-course4 = Course("Faculty Of Management Sciences", "FA4", "Accounting", "FOMNS190", "General Mathematics", "MTH111")
-print(course1.getCourseDetails())
-print(course2.getCourseDetails())
-print(course3.getCourseDetails())
-print(course4.getCourseDetails())
+faculty1 = f("Natural Science", "naturalSc@gmail.com")
+department1 = d("Computer Scicence", "csc@gmail.com", faculty1.Id)
 print(faculty1)
+faculty1.departments.append(department1)
+print(department1)
+print(faculty1.departments)
+department2 = d("Mathematics", "maths@gmail.com", faculty1.Id)
+course1 = c("Introduction to Computers", "CSC101", department1.Id)
+
+fac = open("files/faculty.json", "w")
+fac.write(json.dumps(faculty1.to_dict(), indent=4, separators=(", " , " : "), sort_keys=True))
+fac.close()
+dept = open("files/department.json", "w")
+departmentList = [department1.to_dict(), department2.to_dict()]
+dept.write(json.dumps(departmentList, indent=4, separators=(" , " , " : " ), sort_keys=True))
+dept.close()
+cour = open("files/course.json", "w")
+cour.write(json.dumps(course1.to_dict(), indent=4, separators= (" , " , " : "), sort_keys=True))
+cour.close()

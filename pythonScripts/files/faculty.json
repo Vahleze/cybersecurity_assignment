@@ -1,0 +1,17 @@
+{
+    "dean" : "Prof. Mattew Obafemi", 
+    "departments" : [
+        {
+            "HOD" : "e679979e-98b0-42ed-afed-0bc155e23299", 
+            "Id" : "11c62ec3-4d09-4c3e-b67a-615772aaae41", 
+            "courses" : [], 
+            "email" : "csc@gmail.com", 
+            "facultyId" : "Prof. Mattew Obafemi", 
+            "lecturers" : [], 
+            "name" : "Computer Scicence"
+        }
+    ], 
+    "email" : "naturalSc@gmail.com", 
+    "members" : [], 
+    "name" : "Natural Science"
+}

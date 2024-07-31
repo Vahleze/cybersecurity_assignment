@@ -1,0 +1,50 @@
+[
+    {
+        "code" : "CSC101" , 
+        "departmentId" : "f72fed13-48b7-4723-9a71-2e72272f8348" , 
+        "id" : "04e351d5-95fa-49b4-832e-e04e448c81ee" , 
+        "title" : "Introduction to Computers"
+    } , 
+    {
+        "code" : "CSC112" , 
+        "departmentId" : "f72fed13-48b7-4723-9a71-2e72272f8348" , 
+        "id" : "67f8e84f-49b7-4c89-8bc2-63d45acc6a15" , 
+        "title" : "History of Computers"
+    } , 
+    {
+        "code" : "MTH111" , 
+        "departmentId" : "39e7783b-bff3-4a44-8e28-ddde891627d3" , 
+        "id" : "70586f9a-8034-4153-8159-4a0fe0df8485" , 
+        "title" : "Elementary Mathematics"
+    } , 
+    {
+        "code" : "MTH121" , 
+        "departmentId" : "39e7783b-bff3-4a44-8e28-ddde891627d3" , 
+        "id" : "e65a81cb-5497-4c3d-8a03-bfc5d4aa7c96" , 
+        "title" : "Algebraic Expression"
+    } , 
+    {
+        "code" : "BIO111" , 
+        "departmentId" : "f8ef1e17-c16c-479a-a4c1-f7fd9ed17a64" , 
+        "id" : "3fc3e878-bf74-46f3-a75a-fe02b681a691" , 
+        "title" : "GeneralnBiology"
+    } , 
+    {
+        "code" : "BIO131" , 
+        "departmentId" : "f8ef1e17-c16c-479a-a4c1-f7fd9ed17a64" , 
+        "id" : "6b85a6af-5518-4278-8912-7f5888776db0" , 
+        "title" : "Anatomy"
+    } , 
+    {
+        "code" : "NUR111" , 
+        "departmentId" : "2c1c3d3a-d6ba-479c-ae85-9fbccd71e655" , 
+        "id" : "d7515e2a-c8d6-4046-85aa-00246b4cc676" , 
+        "title" : "Introduction to Nursing Practices"
+    } , 
+    {
+        "code" : "BIO141" , 
+        "departmentId" : "2c1c3d3a-d6ba-479c-ae85-9fbccd71e655" , 
+        "id" : "d61b1271-be78-4037-956d-e35a34080807" , 
+        "title" : "Anatomy II"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "HOD" : "Prof. Ken Brown" , 
+        "Id" : "f72fed13-48b7-4723-9a71-2e72272f8348" , 
+        "courses" : [] , 
+        "email" : "csc@gmail.com" , 
+        "facultyId" : "e8ebf967-575b-4f87-953c-84719ff8c400" , 
+        "lecturers" : [] , 
+        "name" : "Computer Scicence"
+    } , 
+    {
+        "HOD" : "Prof. Olusegun Oloun" , 
+        "Id" : "39e7783b-bff3-4a44-8e28-ddde891627d3" , 
+        "courses" : [] , 
+        "email" : "maths@gmail.com" , 
+        "facultyId" : "e8ebf967-575b-4f87-953c-84719ff8c400" , 
+        "lecturers" : [] , 
+        "name" : "Mathematics"
+    } , 
+    {
+        "HOD" : "Dr. Nicolas Ego" , 
+        "Id" : "f8ef1e17-c16c-479a-a4c1-f7fd9ed17a64" , 
+        "courses" : [] , 
+        "email" : "medsurg@gmail.com" , 
+        "facultyId" : "e366d21d-31e8-40dd-9f41-ec7916671abb" , 
+        "lecturers" : [] , 
+        "name" : "Medicine and Surgery"
+    } , 
+    {
+        "HOD" : "Madam Nkechi Nwogu(Ns. MSc. Nrr)" , 
+        "Id" : "2c1c3d3a-d6ba-479c-ae85-9fbccd71e655" , 
+        "courses" : [] , 
+        "email" : "nursing@gmail.com" , 
+        "facultyId" : "e366d21d-31e8-40dd-9f41-ec7916671abb" , 
+        "lecturers" : [] , 
+        "name" : "Nursing"
+    }
+]

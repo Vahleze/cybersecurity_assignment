@@ -1,5 +1,6 @@
 import uuid
 
+        
 class Course():
     def __init__(self, title, code, departmentId):
         self.id = str(uuid.uuid4())
@@ -23,6 +24,6 @@ class Course():
             "code": self.code,
             "departmentId": self.departmentId,
 
-        }
+        }        
     
-
+    

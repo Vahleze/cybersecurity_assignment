@@ -1,24 +1,36 @@
-from faculty import Faculty
-import datetime
+from Schoolbase import SchoolBase as SB
 
-class Department(Faculty):
-    def __init__(self, name, Id, Name, departmentId):
-         super().__init__(name, Id)
-         self.Name = Name
-         self.departmentId = departmentId
-         self.created_at = datetime.datetime.now()
+class Department(SB):
+     def __init__(self, name, email, facultyId):
+         super().__init__(name, email)
+         self.facultyId = facultyId
+         self.lecturers = []
+         self.courses = []
 
 
-    def __str__(self):
-         return f"{self.Name} {self.departmentId}"
+
+     def getLecturers(self):
+         return self.lecturers
     
-    def getName(self):
-         return f"This is {self.Name}"
+     def getCourses(self):
+          return self.courses
+     
+     def getId(self):
+            return f"{self.name} {self.email}"
     
-    def getDepartmentId(self):
-         return self.departmentId
-    
-    def getDepartmentDetails(self):
-         return f"The department details are:\nFaculty: {self.name}\nId: {self.Id}\nDeparment: {self.Name}\nDepartmentID: {self.departmentId}\ncreatedAt: {self.created_at}"
-         
+
+
+     def __str__(self):
+         return super().__str__()+ " " + str(self.facultyId)
+     
+
+     def to_dict(self):
+        return {
+            "Id": self.Id,
+            "name": self.name,
+            "email": self.email,
+            "facultyId": self.facultyId,
+            "lecturers": [lecturer.to_dict() for lecturer in self.lecturers],
+            "courses": [course.to_dict() for course in self.courses]
+        }
     

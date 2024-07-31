@@ -1,5 +1,5 @@
 
-class Invoice:
+#class Invoice:
     def __init__(self, number, description, quantity, price_per_item):
         self.number = number
         self.description = description
@@ -44,5 +44,21 @@ print("quantity:", invoice.quantity)
 print("price_per_item:", invoice.price_per_item)
 print("Invoice_Amount:", invoice.getInvoiceAmount())
 
-#invoice.quantity = -1
-#print("quantity", invoice.quantity)
+
+
+class Invoice:
+    def __init__(self, num, desc, qtty, price):
+        self.num = num
+        self.desc =desc
+        self.qtty = qtty
+        self.price = price
+
+    def getPrice(self):
+        return self.price
+
+    def setPrice(self, price):
+        if price > 0:
+            self.price = price
+
+    def invoiceAmount(self):
+        return self.qtty * self.price
