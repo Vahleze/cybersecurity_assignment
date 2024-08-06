@@ -1,0 +1,42 @@
+Hackers attacks
+
+1. **Phishing**
+   - **Description**: A technique used to trick individuals into providing personal information, such as passwords or credit card numbers, by pretending to be a trustworthy entity.
+   - **Method**: Attackers send emails or messages that appear to be from legitimate sources, containing links to fake websites designed to steal information.
+
+2. **Ransomware**
+   - **Description**: A type of malware that encrypts the victim's data, demanding a ransom to restore access.
+   - **Method**: Often delivered via phishing emails or exploit kits. Once executed, it locks files and displays a ransom note.
+
+3. **Distributed Denial of Service (DDoS) Attacks**
+   - **Description**: An attack aiming to disrupt the normal traffic of a targeted server, service, or network by overwhelming it with a flood of internet traffic.
+   - **Method**: Utilizes multiple compromised systems (botnets) to send massive amounts of traffic to the target.
+
+4. **Man-in-the-Middle (MITM) Attacks**
+   - **Description**: An attack where the attacker secretly intercepts and possibly alters the communication between two parties.
+   - **Method**: Often executed through unsecured Wi-Fi networks, allowing attackers to eavesdrop on the information being exchanged.
+
+5. **SQL Injection**
+   - **Description**: A code injection technique that exploits vulnerabilities in a web application’s software by inserting malicious SQL code into a query.
+   - **Method**: Attackers input malicious SQL statements into entry fields of a web application to manipulate the database.
+
+6. **Cross-Site Scripting (XSS)**
+   - **Description**: A vulnerability that allows attackers to inject malicious scripts into webpages viewed by other users.
+   - **Method**: Attackers insert malicious scripts into web forms, URLs, or other input fields, which are then executed in the user's browser.
+
+7. **Credential Stuffing**
+   - **Description**: A type of cyber attack where stolen account credentials are used to gain unauthorized access to user accounts through large-scale automated login requests.
+   - **Method**: Attackers use automated tools to try stolen username-password pairs across multiple websites.
+
+8. **Brute Force Attacks**
+   - **Description**: A method used to crack passwords by trying all possible combinations until the correct one is found.
+   - **Method**: Automated tools systematically try every possible combination of characters until the correct password is discovered.
+
+9. **Social Engineering**
+   - **Description**: Techniques that manipulate individuals into divulging confidential information or performing actions that compromise security.
+   - **Method**: Includes tactics like pretexting, baiting, and tailgating, exploiting human psychology rather than technical vulnerabilities.
+
+10. **Zero-Day Exploits**
+    - **Description**: Attacks that exploit unknown or unpatched vulnerabilities in software.
+    - **Method**: Attackers find and exploit these vulnerabilities before developers have a chance to fix them, often leading to significant damage.
+

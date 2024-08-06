@@ -1,0 +1,27 @@
+Concepts of Cybersecurity Principles
+
+General Cybersecurity Principles 
+
+ 1. **Confidentiality** - Ensures that sensitive information is accessible only to those authorized to access it. Techniques include encryption, access controls, and authentication mechanisms to protect against unauthorized access 
+
+2. **Integrity** - Protects data from unauthorized modification or destruction. It ensures that information remains accurate and trustworthy. Methods to maintain integrity include hashing, digital signatures, and version control 
+
+
+3. **Availability** - Ensures that information and resources are accessible to authorized users when needed. This involves maintaining hardware, regularly updating software, and having disaster recovery plans to handle potential disruptions 
+
+
+4. **Economy of Mechanism** - Security measures should be as simple and straightforward as possible to reduce errors and increase the effectiveness of security implementations. Simple designs are easier to understand, verify, and manage 
+
+5. **Fail-Safe Defaults** - Systems should default to a secure state, denying access by default and granting it only when explicitly allowed. This minimizes the potential for unauthorized access due to misconfigurations or errors 
+
+6. **Least Privilege** - Users should have the minimum level of access necessary to perform their duties. Limiting user permissions reduces the risk of accidental or intentional misuse of resources
+
+ 7. **Open Design** - Security should not depend on the secrecy of the design or implementation. Security mechanisms should be robust enough to remain secure even if the system's details are publicly known 
+
+8. **Complete Mediation** - Every access to every resource must be checked for authorization. Caching of previous permissions should be avoided to ensure that access control decisions are current and accurate 
+
+9. **Separation of Privilege** - Access should depend on more than one condition. This could mean requiring two keys to unlock a safe or requiring multiple forms of authentication for system access
+
+10. **Least Common Mechanism** - Shared mechanisms should be minimized to reduce the risk of unintended interactions among users. This principle advocates for isolating resources and access paths to limit potential security breaches
+
+11. **Psychological Acceptability** - Security measures should not make resource access difficult for users. Usability should be considered to ensure that security mechanisms are followed without burdening user

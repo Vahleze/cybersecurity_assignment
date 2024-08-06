@@ -1,0 +1,25 @@
+Cyber threats
+
+Common Cyber Threats 
+
+1. **Malware** Malware encompasses various malicious software, including viruses, worms, trojans, ransomware, and spyware. These programs can disrupt operations, steal sensitive data, and cause significant damage to systems. Malware can be introduced through email attachments, software downloads, and compromised websites.
+
+2. **Phishing** Phishing involves tricking individuals into providing personal information such as passwords or credit card numbers by posing as a trustworthy entity. Attackers use emails, text messages, or fake websites that resemble legitimate ones to deceive users. Phishing attacks are becoming more sophisticated, often leveraging social engineering techniques to increase their success rates.
+
+3. **Ransomware** Ransomware encrypts a victim's data and demands a ransom to restore access. Attackers may also threaten to leak sensitive data if the ransom is not paid. Ransomware attacks can cripple businesses by locking essential systems and data, leading to significant financial losses and operational disruptions.
+
+4. **Distributed Denial of Service (DDoS) Attacks** DDoS attacks overwhelm a network, service, or website with excessive traffic, causing it to become slow or entirely unavailable to legitimate users. These attacks are often carried out using botnets, networks of compromised devices. The goal is to disrupt services, causing reputational and financial damage. 
+
+5. **Man-in-the-Middle (MITM) Attacks** In a MITM attack, the attacker intercepts and possibly alters the communication between two parties without their knowledge. This can occur over unsecured Wi-Fi networks, allowing the attacker to eavesdrop on sensitive information like login credentials and financial data. 
+
+6. **Social Engineering** Social engineering attacks manipulate individuals into divulging confidential information or performing actions that compromise security. Techniques include pretexting, baiting, and tailgating. Phishing is a common form of social engineering. 
+
+7. **Cloud Vulnerabilities** As organizations increasingly rely on cloud services, the risk of cloud-based attacks grows. Vulnerabilities can arise from misconfigurations, insecure APIs, and inadequate access controls. Data breaches, data leaks, and unauthorized access are common threats in cloud environments. 
+
+8. **Internet of Things (IoT) Attacks** IoT devices often have limited security measures, making them attractive targets. Attacks on IoT devices can result in data breaches, network disruptions, and control of critical infrastructure. Ensuring robust security for these devices is essential as they become more prevalent.
+
+9. **Supply Chain Attacks** Supply chain attacks target less secure elements within an organization's supply chain, such as software vendors or third-party service providers. By compromising a trusted supplier, attackers can infiltrate the primary organization's systems and data. 
+
+
+10. **State-Sponsored Attacks** These attacks are conducted by nation-states to achieve political, economic, or military objectives. They often target critical infrastructure, government agencies, and large enterprises, using advanced and persistent methods to steal sensitive data and disrupt operations. To defend against these threats, organizations must implement comprehensive security measures, including strong access controls, regular security assessments, employee training, and robust incident response plans. 
+
