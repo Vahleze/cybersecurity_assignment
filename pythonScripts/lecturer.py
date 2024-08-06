@@ -11,3 +11,13 @@ class Lecturer(User):
     def getLecturerDetails(self):
         return f" firstname: {self.firstname}\n lastname: {self.lastname}\nemail: {self.email}\n password: {self.password}\n staffId: {self.staffId}"
         
+
+    def to_dict(self):
+        return {
+            "id" : self.id,
+            "firstname": self.firstname,
+            "lastname": self.lastname,
+            "email": self.email,
+            "password": self.password,
+            "staffId": self.staffId
+        }

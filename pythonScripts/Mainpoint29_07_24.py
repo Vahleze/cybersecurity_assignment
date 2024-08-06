@@ -1,6 +1,7 @@
 from faculty_Assgn29_07_24 import Faculty as fac
 from departmentAssgn29_07_24 import department as dep
 from course_Assg29_07_24 import Course as cou
+from lecturer import Lecturer as lec
 import json
 
 faculty1 = fac("Physical and Applied Science", "FOPAS@gmail.com", "Prof. Mattew Obafemi")
@@ -25,7 +26,7 @@ course5 = cou("GeneralnBiology", "BIO111", department3.id)
 course6 = cou("Anatomy", "BIO131", department3.id)
 course7 = cou("Introduction to Nursing Practices", "NUR111", department4.id)
 course8 = cou("Anatomy II", "BIO141", department4.id)
-
+lecturer1 =
 
 fac = open("myFiles/faculty.json", "w")
 fac.write(json.dumps(faculty1.to_dict(), indent=4, separators=(", " , " : "), sort_keys=True))
